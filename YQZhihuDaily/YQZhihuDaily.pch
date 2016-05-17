@@ -1,0 +1,25 @@
+//
+//  YQZhihuDaily.pch
+//  YQZhihuDaily
+//
+//  Created by 羊琪 on 16/5/4.
+//  Copyright © 2016年 user. All rights reserved.
+//
+
+#ifndef YQZhihuDaily_pch
+#define YQZhihuDaily_pch
+
+//第三方库
+#import "MMDrawerController.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "Masonry.h"
+
+//API tool
+#import "YQHttpTool.h"
+
+//宏定义
+#define YQColor(r,g,b,a) [UIColor colorWithRed:r/255. green:g/255. blue:b/255. alpha:a*1.0]
+
+
+#endif /* YQZhihuDaily_pch */

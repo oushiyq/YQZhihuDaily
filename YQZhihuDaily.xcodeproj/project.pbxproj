@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776C09988D99F8F0D8305E72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73179EA7F48415CFD9C2BF52 /* libPods.a */; };
+		CE0EA9061CDB348300230ECE /* YQThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EA9051CDB348300230ECE /* YQThemeViewController.m */; };
+		CE249BED1CE3223600594C02 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE249BEC1CE3223600594C02 /* TopView.xib */; };
+		CE88D5D71CD88AEA0005D315 /* YQLeftDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88D5D61CD88AEA0005D315 /* YQLeftDrawer.m */; };
+		CEA29CA91CE5F59F0000D72B /* YQStoriesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA29CA81CE5F59F0000D72B /* YQStoriesTool.m */; };
+		CEA29CAC1CE5F5B60000D72B /* YQSessionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA29CAB1CE5F5B60000D72B /* YQSessionTool.m */; };
+		CEA29CAF1CE5FFA40000D72B /* YQLoadNews.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA29CAE1CE5FFA40000D72B /* YQLoadNews.m */; };
+		CEA29CB51CE9AD9B0000D72B /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA29CB41CE9AD9B0000D72B /* ArrayDataSource.m */; };
+		CEA29CB91CE9F8F50000D72B /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA29CB61CE9F8F50000D72B /* HomeCell.xib */; };
+		CEA29CBA1CE9F8F50000D72B /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA29CB81CE9F8F50000D72B /* HomeCell.m */; };
+		CEA581591CE0AFB60040E095 /* YQLeftDrawer.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA581581CE0AFB60040E095 /* YQLeftDrawer.xib */; };
+		CEA5815E1CE0BAE80040E095 /* YQHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA5815D1CE0BAE80040E095 /* YQHttpTool.m */; };
+		CEA581611CE0C8EA0040E095 /* YQThemesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA581601CE0C8EA0040E095 /* YQThemesTool.m */; };
+		CEA581641CE0CA520040E095 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA581631CE0CA520040E095 /* Theme.m */; };
+		CEC1FBD71CD83C2200A9AFD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FBD61CD83C2200A9AFD6 /* main.m */; };
+		CEC1FBDA1CD83C2200A9AFD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FBD91CD83C2200A9AFD6 /* AppDelegate.m */; };
+		CEC1FBE01CD83C2200A9AFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1FBDE1CD83C2200A9AFD6 /* Main.storyboard */; };
+		CEC1FBE21CD83C2200A9AFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1FBE11CD83C2200A9AFD6 /* Assets.xcassets */; };
+		CEC1FBE51CD83C2200A9AFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1FBE31CD83C2200A9AFD6 /* LaunchScreen.storyboard */; };
+		CEC1FBF01CD83C2200A9AFD6 /* YQZhihuDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FBEF1CD83C2200A9AFD6 /* YQZhihuDailyTests.m */; };
+		CEC1FBFB1CD83C2200A9AFD6 /* YQZhihuDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FBFA1CD83C2200A9AFD6 /* YQZhihuDailyUITests.m */; };
+		CEF3153D1CD98CF200F3F410 /* YQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF3153C1CD98CF200F3F410 /* YQMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC1FBEC1CD83C2200A9AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC1FBCA1CD83C2200A9AFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC1FBD11CD83C2200A9AFD6;
+			remoteInfo = YQZhihuDaily;
+		};
+		CEC1FBF71CD83C2200A9AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC1FBCA1CD83C2200A9AFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC1FBD11CD83C2200A9AFD6;
+			remoteInfo = YQZhihuDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0590AB414EBC97760D5411BE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		73179EA7F48415CFD9C2BF52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8CBFE8DB3E591A628FDEE0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CE0EA9041CDB348300230ECE /* YQThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQThemeViewController.h; sourceTree = "<group>"; };
+		CE0EA9051CDB348300230ECE /* YQThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQThemeViewController.m; sourceTree = "<group>"; };
+		CE249BEC1CE3223600594C02 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		CE88D5D51CD88AEA0005D315 /* YQLeftDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLeftDrawer.h; sourceTree = "<group>"; };
+		CE88D5D61CD88AEA0005D315 /* YQLeftDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLeftDrawer.m; sourceTree = "<group>"; };
+		CEA29CA71CE5F59F0000D72B /* YQStoriesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStoriesTool.h; sourceTree = "<group>"; };
+		CEA29CA81CE5F59F0000D72B /* YQStoriesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStoriesTool.m; sourceTree = "<group>"; };
+		CEA29CAA1CE5F5B60000D72B /* YQSessionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSessionTool.h; sourceTree = "<group>"; };
+		CEA29CAB1CE5F5B60000D72B /* YQSessionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSessionTool.m; sourceTree = "<group>"; };
+		CEA29CAD1CE5FFA40000D72B /* YQLoadNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLoadNews.h; sourceTree = "<group>"; };
+		CEA29CAE1CE5FFA40000D72B /* YQLoadNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLoadNews.m; sourceTree = "<group>"; };
+		CEA29CB31CE9AD9B0000D72B /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		CEA29CB41CE9AD9B0000D72B /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		CEA29CB61CE9F8F50000D72B /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		CEA29CB71CE9F8F50000D72B /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		CEA29CB81CE9F8F50000D72B /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		CEA581581CE0AFB60040E095 /* YQLeftDrawer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQLeftDrawer.xib; sourceTree = "<group>"; };
+		CEA5815C1CE0BAE80040E095 /* YQHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQHttpTool.h; sourceTree = "<group>"; };
+		CEA5815D1CE0BAE80040E095 /* YQHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQHttpTool.m; sourceTree = "<group>"; };
+		CEA5815F1CE0C8EA0040E095 /* YQThemesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQThemesTool.h; sourceTree = "<group>"; };
+		CEA581601CE0C8EA0040E095 /* YQThemesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQThemesTool.m; sourceTree = "<group>"; };
+		CEA581621CE0CA520040E095 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		CEA581631CE0CA520040E095 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		CEC1FBD21CD83C2200A9AFD6 /* YQZhihuDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQZhihuDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1FBD61CD83C2200A9AFD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC1FBD81CD83C2200A9AFD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC1FBD91CD83C2200A9AFD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC1FBDF1CD83C2200A9AFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC1FBE11CD83C2200A9AFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC1FBE41CD83C2200A9AFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC1FBE61CD83C2200A9AFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC1FBEB1CD83C2200A9AFD6 /* YQZhihuDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQZhihuDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1FBEF1CD83C2200A9AFD6 /* YQZhihuDailyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQZhihuDailyTests.m; sourceTree = "<group>"; };
+		CEC1FBF11CD83C2200A9AFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC1FBF61CD83C2200A9AFD6 /* YQZhihuDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQZhihuDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1FBFA1CD83C2200A9AFD6 /* YQZhihuDailyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQZhihuDailyUITests.m; sourceTree = "<group>"; };
+		CEC1FBFC1CD83C2200A9AFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE46D131CD9D608005EA211 /* YQZhihuDaily.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQZhihuDaily.pch; sourceTree = "<group>"; };
+		CEF3153B1CD98CF200F3F410 /* YQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQMainViewController.h; sourceTree = "<group>"; };
+		CEF3153C1CD98CF200F3F410 /* YQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC1FBCF1CD83C2200A9AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C09988D99F8F0D8305E72 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBE81CD83C2200A9AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBF31CD83C2200A9AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FC73BE07D97B146A400E08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73179EA7F48415CFD9C2BF52 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C909426AEFC6E2DDB1C1246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0590AB414EBC97760D5411BE /* Pods.debug.xcconfig */,
+				CD8CBFE8DB3E591A628FDEE0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE0EA9031CDB341300230ECE /* themeView */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EA9041CDB348300230ECE /* YQThemeViewController.h */,
+				CE0EA9051CDB348300230ECE /* YQThemeViewController.m */,
+			);
+			name = themeView;
+			sourceTree = "<group>";
+		};
+		CE249BE71CE2BC1100594C02 /* detailView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = detailView;
+			sourceTree = "<group>";
+		};
+		CE88D5D01CD889FB0005D315 /* leftDrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				CEA581621CE0CA520040E095 /* Theme.h */,
+				CEA581631CE0CA520040E095 /* Theme.m */,
+				CEA5815F1CE0C8EA0040E095 /* YQThemesTool.h */,
+				CEA581601CE0C8EA0040E095 /* YQThemesTool.m */,
+				CE88D5D51CD88AEA0005D315 /* YQLeftDrawer.h */,
+				CE88D5D61CD88AEA0005D315 /* YQLeftDrawer.m */,
+				CEA581581CE0AFB60040E095 /* YQLeftDrawer.xib */,
+			);
+			name = leftDrawerView;
+			sourceTree = "<group>";
+		};
+		CEC1FBC91CD83C2200A9AFD6 = {
+			isa = PBXGroup;
+			children = (
+				CEC1FBD41CD83C2200A9AFD6 /* YQZhihuDaily */,
+				CEC1FBEE1CD83C2200A9AFD6 /* YQZhihuDailyTests */,
+				CEC1FBF91CD83C2200A9AFD6 /* YQZhihuDailyUITests */,
+				CEC1FBD31CD83C2200A9AFD6 /* Products */,
+				0C909426AEFC6E2DDB1C1246 /* Pods */,
+				01FC73BE07D97B146A400E08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC1FBD31CD83C2200A9AFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FBD21CD83C2200A9AFD6 /* YQZhihuDaily.app */,
+				CEC1FBEB1CD83C2200A9AFD6 /* YQZhihuDailyTests.xctest */,
+				CEC1FBF61CD83C2200A9AFD6 /* YQZhihuDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC1FBD41CD83C2200A9AFD6 /* YQZhihuDaily */ = {
+			isa = PBXGroup;
+			children = (
+				CE88D5D01CD889FB0005D315 /* leftDrawerView */,
+				CE0EA9031CDB341300230ECE /* themeView */,
+				CEF3153A1CD98CC600F3F410 /* mainView */,
+				CE249BE71CE2BC1100594C02 /* detailView */,
+				CEC1FBD51CD83C2200A9AFD6 /* Supporting Files */,
+			);
+			path = YQZhihuDaily;
+			sourceTree = "<group>";
+		};
+		CEC1FBD51CD83C2200A9AFD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FBD81CD83C2200A9AFD6 /* AppDelegate.h */,
+				CEC1FBD91CD83C2200A9AFD6 /* AppDelegate.m */,
+				CEA5815C1CE0BAE80040E095 /* YQHttpTool.h */,
+				CEA5815D1CE0BAE80040E095 /* YQHttpTool.m */,
+				CEE46D131CD9D608005EA211 /* YQZhihuDaily.pch */,
+				CEC1FBD61CD83C2200A9AFD6 /* main.m */,
+				CEC1FBDE1CD83C2200A9AFD6 /* Main.storyboard */,
+				CEC1FBE11CD83C2200A9AFD6 /* Assets.xcassets */,
+				CEC1FBE31CD83C2200A9AFD6 /* LaunchScreen.storyboard */,
+				CEC1FBE61CD83C2200A9AFD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC1FBEE1CD83C2200A9AFD6 /* YQZhihuDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FBEF1CD83C2200A9AFD6 /* YQZhihuDailyTests.m */,
+				CEC1FBF11CD83C2200A9AFD6 /* Info.plist */,
+			);
+			path = YQZhihuDailyTests;
+			sourceTree = "<group>";
+		};
+		CEC1FBF91CD83C2200A9AFD6 /* YQZhihuDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FBFA1CD83C2200A9AFD6 /* YQZhihuDailyUITests.m */,
+				CEC1FBFC1CD83C2200A9AFD6 /* Info.plist */,
+			);
+			path = YQZhihuDailyUITests;
+			sourceTree = "<group>";
+		};
+		CEF3153A1CD98CC600F3F410 /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				CEA29CB31CE9AD9B0000D72B /* ArrayDataSource.h */,
+				CEA29CB41CE9AD9B0000D72B /* ArrayDataSource.m */,
+				CEA29CA71CE5F59F0000D72B /* YQStoriesTool.h */,
+				CEA29CA81CE5F59F0000D72B /* YQStoriesTool.m */,
+				CEA29CAA1CE5F5B60000D72B /* YQSessionTool.h */,
+				CEA29CAB1CE5F5B60000D72B /* YQSessionTool.m */,
+				CEF3153B1CD98CF200F3F410 /* YQMainViewController.h */,
+				CEF3153C1CD98CF200F3F410 /* YQMainViewController.m */,
+				CEA29CB61CE9F8F50000D72B /* HomeCell.xib */,
+				CEA29CB71CE9F8F50000D72B /* HomeCell.h */,
+				CEA29CB81CE9F8F50000D72B /* HomeCell.m */,
+				CE249BEC1CE3223600594C02 /* TopView.xib */,
+				CEA29CAD1CE5FFA40000D72B /* YQLoadNews.h */,
+				CEA29CAE1CE5FFA40000D72B /* YQLoadNews.m */,
+			);
+			name = mainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC1FBD11CD83C2200A9AFD6 /* YQZhihuDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1FBFF1CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDaily" */;
+			buildPhases = (
+				760C343C7EDBC7A6308751A0 /* Check Pods Manifest.lock */,
+				CEC1FBCE1CD83C2200A9AFD6 /* Sources */,
+				CEC1FBCF1CD83C2200A9AFD6 /* Frameworks */,
+				CEC1FBD01CD83C2200A9AFD6 /* Resources */,
+				F9972885C524A2F5C2866508 /* Embed Pods Frameworks */,
+				C405B78826C8BE828C6A814D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQZhihuDaily;
+			productName = YQZhihuDaily;
+			productReference = CEC1FBD21CD83C2200A9AFD6 /* YQZhihuDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC1FBEA1CD83C2200A9AFD6 /* YQZhihuDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1FC021CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDailyTests" */;
+			buildPhases = (
+				CEC1FBE71CD83C2200A9AFD6 /* Sources */,
+				CEC1FBE81CD83C2200A9AFD6 /* Frameworks */,
+				CEC1FBE91CD83C2200A9AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC1FBED1CD83C2200A9AFD6 /* PBXTargetDependency */,
+			);
+			name = YQZhihuDailyTests;
+			productName = YQZhihuDailyTests;
+			productReference = CEC1FBEB1CD83C2200A9AFD6 /* YQZhihuDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC1FBF51CD83C2200A9AFD6 /* YQZhihuDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1FC051CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDailyUITests" */;
+			buildPhases = (
+				CEC1FBF21CD83C2200A9AFD6 /* Sources */,
+				CEC1FBF31CD83C2200A9AFD6 /* Frameworks */,
+				CEC1FBF41CD83C2200A9AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC1FBF81CD83C2200A9AFD6 /* PBXTargetDependency */,
+			);
+			name = YQZhihuDailyUITests;
+			productName = YQZhihuDailyUITests;
+			productReference = CEC1FBF61CD83C2200A9AFD6 /* YQZhihuDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC1FBCA1CD83C2200A9AFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC1FBD11CD83C2200A9AFD6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R2KB5FWHWD;
+					};
+					CEC1FBEA1CD83C2200A9AFD6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R2KB5FWHWD;
+						TestTargetID = CEC1FBD11CD83C2200A9AFD6;
+					};
+					CEC1FBF51CD83C2200A9AFD6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R2KB5FWHWD;
+						TestTargetID = CEC1FBD11CD83C2200A9AFD6;
+					};
+				};
+			};
+			buildConfigurationList = CEC1FBCD1CD83C2200A9AFD6 /* Build configuration list for PBXProject "YQZhihuDaily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC1FBC91CD83C2200A9AFD6;
+			productRefGroup = CEC1FBD31CD83C2200A9AFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC1FBD11CD83C2200A9AFD6 /* YQZhihuDaily */,
+				CEC1FBEA1CD83C2200A9AFD6 /* YQZhihuDailyTests */,
+				CEC1FBF51CD83C2200A9AFD6 /* YQZhihuDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC1FBD01CD83C2200A9AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE249BED1CE3223600594C02 /* TopView.xib in Resources */,
+				CEC1FBE51CD83C2200A9AFD6 /* LaunchScreen.storyboard in Resources */,
+				CEC1FBE21CD83C2200A9AFD6 /* Assets.xcassets in Resources */,
+				CEC1FBE01CD83C2200A9AFD6 /* Main.storyboard in Resources */,
+				CEA29CB91CE9F8F50000D72B /* HomeCell.xib in Resources */,
+				CEA581591CE0AFB60040E095 /* YQLeftDrawer.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBE91CD83C2200A9AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBF41CD83C2200A9AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		760C343C7EDBC7A6308751A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C405B78826C8BE828C6A814D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9972885C524A2F5C2866508 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC1FBCE1CD83C2200A9AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1FBDA1CD83C2200A9AFD6 /* AppDelegate.m in Sources */,
+				CEC1FBD71CD83C2200A9AFD6 /* main.m in Sources */,
+				CE0EA9061CDB348300230ECE /* YQThemeViewController.m in Sources */,
+				CEA29CAF1CE5FFA40000D72B /* YQLoadNews.m in Sources */,
+				CEA29CB51CE9AD9B0000D72B /* ArrayDataSource.m in Sources */,
+				CEA29CBA1CE9F8F50000D72B /* HomeCell.m in Sources */,
+				CEF3153D1CD98CF200F3F410 /* YQMainViewController.m in Sources */,
+				CE88D5D71CD88AEA0005D315 /* YQLeftDrawer.m in Sources */,
+				CEA581641CE0CA520040E095 /* Theme.m in Sources */,
+				CEA5815E1CE0BAE80040E095 /* YQHttpTool.m in Sources */,
+				CEA581611CE0C8EA0040E095 /* YQThemesTool.m in Sources */,
+				CEA29CAC1CE5F5B60000D72B /* YQSessionTool.m in Sources */,
+				CEA29CA91CE5F59F0000D72B /* YQStoriesTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBE71CD83C2200A9AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1FBF01CD83C2200A9AFD6 /* YQZhihuDailyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1FBF21CD83C2200A9AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1FBFB1CD83C2200A9AFD6 /* YQZhihuDailyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC1FBED1CD83C2200A9AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC1FBD11CD83C2200A9AFD6 /* YQZhihuDaily */;
+			targetProxy = CEC1FBEC1CD83C2200A9AFD6 /* PBXContainerItemProxy */;
+		};
+		CEC1FBF81CD83C2200A9AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC1FBD11CD83C2200A9AFD6 /* YQZhihuDaily */;
+			targetProxy = CEC1FBF71CD83C2200A9AFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC1FBDE1CD83C2200A9AFD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1FBDF1CD83C2200A9AFD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC1FBE31CD83C2200A9AFD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1FBE41CD83C2200A9AFD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC1FBFD1CD83C2200A9AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC1FBFE1CD83C2200A9AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC1FC001CD83C2200A9AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0590AB414EBC97760D5411BE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YQZhihuDaily/YQZhihuDaily.pch;
+				INFOPLIST_FILE = YQZhihuDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC1FC011CD83C2200A9AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8CBFE8DB3E591A628FDEE0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YQZhihuDaily/YQZhihuDaily.pch;
+				INFOPLIST_FILE = YQZhihuDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC1FC031CD83C2200A9AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQZhihuDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQZhihuDaily.app/YQZhihuDaily";
+			};
+			name = Debug;
+		};
+		CEC1FC041CD83C2200A9AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQZhihuDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQZhihuDaily.app/YQZhihuDaily";
+			};
+			name = Release;
+		};
+		CEC1FC061CD83C2200A9AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQZhihuDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQZhihuDaily;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEC1FC071CD83C2200A9AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQZhihuDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wnlo.YQZhihuDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQZhihuDaily;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC1FBCD1CD83C2200A9AFD6 /* Build configuration list for PBXProject "YQZhihuDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1FBFD1CD83C2200A9AFD6 /* Debug */,
+				CEC1FBFE1CD83C2200A9AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1FBFF1CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1FC001CD83C2200A9AFD6 /* Debug */,
+				CEC1FC011CD83C2200A9AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1FC021CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1FC031CD83C2200A9AFD6 /* Debug */,
+				CEC1FC041CD83C2200A9AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1FC051CD83C2200A9AFD6 /* Build configuration list for PBXNativeTarget "YQZhihuDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1FC061CD83C2200A9AFD6 /* Debug */,
+				CEC1FC071CD83C2200A9AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC1FBCA1CD83C2200A9AFD6 /* Project object */;
+}
